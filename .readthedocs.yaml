@@ -7,5 +7,6 @@ build:
 
 sphinx:
   configuration: docs/source/conf.py
-  requirements: requirements.txt
+
+requirements_file: requirements.txt
 
