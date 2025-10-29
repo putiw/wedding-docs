@@ -80,7 +80,25 @@ git push -u origin main
    - Go to [readthedocs.org](https://readthedocs.org)
    - Sign in with your GitHub account (recommended) or create a new account
 
-2. **Import Your Project**
+2. **Connect Your GitHub Account (IMPORTANT!)**
+   
+   If you signed in with GitHub, your account should already be connected. If not, or if you see webhook errors:
+   
+   - Go to your Read the Docs dashboard
+   - Click on your profile icon in the top right corner
+   - Select **"Connected Services"** or **"Settings"**
+   - Look for **"GitHub"** or **"Social Accounts"** section
+   - Click **"Connect GitHub"** or **"Link GitHub Account"**
+   - You'll be redirected to GitHub to authorize Read the Docs
+   - Click **"Authorize readthedocs"** to grant access
+   - You'll be redirected back to Read the Docs
+   
+   **Important**: Read the Docs needs GitHub access to:
+   - Set up webhooks for automatic builds on every push
+   - Access your repositories
+   - Automatically deploy updates when you push changes
+
+3. **Import Your Project**
    - Click on "Import a Project" or go to your dashboard
    - Click "Import a Project" → "Import Manually"
    - Fill in the form:
@@ -92,7 +110,7 @@ git push -u origin main
      - **Language**: English
    - Click "Next"
 
-3. **Configure Build Settings**
+4. **Configure Build Settings**
    - Read the Docs will automatically detect `.readthedocs.yaml` configuration
    - Verify these settings:
      - **Python version**: 3.11
@@ -101,12 +119,19 @@ git push -u origin main
      - **Requirements file**: `requirements.txt`
    - Click "Build version" to trigger the first build
 
-4. **Wait for Build**
+5. **Fix Webhook (If Needed)**
+   - After importing, if you see a webhook error, go to your project settings
+   - Navigate to **"Integrations"** or **"Webhooks"** section
+   - Click **"Resync webhooks"** or **"Update webhooks"**
+   - This should work now that your GitHub account is connected
+   - If it still fails, disconnect and reconnect your GitHub account
+
+6. **Wait for Build**
    - The build will start automatically
    - It may take 2-5 minutes for the first build
    - You can monitor progress in the "Builds" tab
 
-5. **View Your Documentation**
+7. **View Your Documentation**
    - Once the build completes successfully, your documentation will be available at:
      `https://wedding-docs.readthedocs.io/`
    - You can also find this URL in your project settings
@@ -365,6 +390,37 @@ Read the Docs will automatically detect and build the translations. Users can sw
 ---
 
 ## Troubleshooting
+
+### Webhook Connection Errors
+
+If you see "Could not add webhook for [project-name]. Please connect your GitHub account":
+
+1. **Verify GitHub Connection**
+   - Go to Read the Docs dashboard → Profile/Settings → Connected Services
+   - Ensure GitHub is listed and connected
+   - If not connected, click "Connect GitHub" and authorize
+
+2. **Check GitHub Permissions**
+   - Go to GitHub.com → Settings → Applications → Authorized OAuth Apps
+   - Find "Read the Docs" in the list
+   - Ensure it has access to your repositories
+   - If needed, revoke and re-authorize
+
+3. **Resync Webhooks**
+   - In Read the Docs project settings → Integrations/Webhooks
+   - Click "Resync webhooks" or "Update webhooks"
+   - Wait a few moments for the sync to complete
+
+4. **Manual Webhook Setup (If Needed)**
+   - Go to your GitHub repository → Settings → Webhooks
+   - Check if Read the Docs webhook is present
+   - If missing, Read the Docs should add it automatically after connection
+   - You can also manually add: `https://readthedocs.org/api/v2/webhook/wedding-docs/`
+
+5. **Still Not Working?**
+   - Disconnect GitHub account in Read the Docs settings
+   - Reconnect GitHub account
+   - Re-import your project or update webhooks
 
 ### Build Fails on Read the Docs
 
