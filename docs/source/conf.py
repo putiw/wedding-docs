@@ -19,8 +19,11 @@ extensions = [
     'sphinx.ext.viewcode',
 ]
 
-templates_path = ['_templates']
+templates_path = []
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
+# Root document
+root_doc = 'index'
 
 # -- Language configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-internationalization
