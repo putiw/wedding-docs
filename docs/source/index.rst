@@ -26,10 +26,7 @@ RSVP
 
 Please let us know if you will be able to attend by filling out our RSVP form:
 
-`RSVP Form <https://forms.gle/PLACEHOLDER>`_
-
-.. note::
-   Replace the placeholder link above with your Google Form URL after creating the form.
+`RSVP Form <https://forms.gle/zxnRR1Q5T7dE1W3i8>`_
 
 Contents
 --------
