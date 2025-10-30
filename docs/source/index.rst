@@ -26,10 +26,7 @@ RSVP
 
 Please let us know if you will be able to attend by filling out our RSVP form:
 
-.. raw:: html
-
-   <iframe src="https://prettyform.addxt.com/a/form/vf/1FAIpQLSeXzVSQuAY1um451CCNk-MbATuzH7rJ9IF42SrUKSoINKKOSA" width="100%" height="1240" frameborder="0" marginheight="0" marginwidth="0" style="max-width: 1080px;">Loading…</iframe>
-
+`RSVP Form <https://forms.gle/zxnRR1Q5T7dE1W3i8>`_
 
 
 .. toctree::
