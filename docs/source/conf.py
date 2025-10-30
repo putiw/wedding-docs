@@ -27,7 +27,20 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # Respect RTD language if present so translated projects don't render as English
 import os
-language = os.environ.get('READTHEDOCS_LANGUAGE', 'en')
+# RTD provides READTHEDOCS_LANGUAGE like 'en', 'zh-cn', 'tr'.
+# Normalize so our root_doc mapping works, and let Sphinx accept common aliases.
+_rtd_lang = os.environ.get('READTHEDOCS_LANGUAGE')
+if _rtd_lang:
+    lang_norm = _rtd_lang.strip().lower().replace('_', '-')
+    # Map common aliases to Sphinx-preferred codes
+    if lang_norm in ('zh', 'zh-cn', 'zh-hans'):
+        language = 'zh_CN'
+    elif lang_norm in ('tr', 'tr-tr'):
+        language = 'tr'
+    else:
+        language = _rtd_lang
+else:
+    language = 'en'
 locale_dirs = ['../locale/']
 gettext_compact = False
 
@@ -36,9 +49,9 @@ gettext_compact = False
 
 # Root document depends on language so each translation can have its own landing page
 root_doc = 'index'
-if language == 'zh_CN':
+if language.lower().replace('_', '-') in ('zh-cn', 'zh-hans', 'zh'):
     root_doc = 'index_zh'
-elif language == 'tr':
+elif language.lower().startswith('tr'):
     root_doc = 'index_tr'
 
 # -- Options for HTML output -------------------------------------------------
