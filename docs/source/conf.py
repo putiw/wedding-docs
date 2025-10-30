@@ -40,7 +40,7 @@ gettext_compact = False
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_logo = '_static/images/putiBirol_v2.png'
+html_logo = '_static/images/putiBirol.png'
 
 # HTML theme options
 html_theme_options = {

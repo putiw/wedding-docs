@@ -3,7 +3,7 @@ Wedding 2026
 
 Welcome to our wedding celebration! We are excited to share this special occasion with you.
 
-.. image:: _static/images/putiBirol_v2.png
+.. image:: _static/images/putiBirol.png
    :alt: Puti & Birol
    :align: center
    :width: 500px
