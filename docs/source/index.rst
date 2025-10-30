@@ -1,7 +1,7 @@
 .. raw:: html
 
    <div style="width:100%;max-width:1080px;margin:0 auto;overflow:hidden;">
-     <video src="_static/videos/putiBirol.mp4" autoplay loop muted playsinline style="width:100%;height:48vh;min-height:280px;max-height:600px;display:block;margin:0;border:0;outline:0;background:transparent;object-fit:cover;">
+     <video src="_static/videos/putiBirol.mp4" autoplay loop muted playsinline style="width:100%;height:60vh;min-height:320px;max-height:720px;display:block;margin:0;border:0;outline:0;background:#fff;object-fit:cover;object-position:center center;">
      </video>
    </div>
    <img src="_static/images/putiBirol.png" alt="Puti & Birol" style="display:block;margin:0 auto;max-width:500px;margin-top:0;" />
