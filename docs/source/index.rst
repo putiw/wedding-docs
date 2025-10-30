@@ -1,4 +1,4 @@
-.. image:: _static/images/PutiBirol_highres2.gif
+.. image:: _static/images/PutiBirol_90.gif
    :alt: Puti & Birol GIF
    :align: center
 .. image:: _static/images/putiBirol.png
