@@ -1,12 +1,15 @@
-Wedding 2026
-=============
-
-Welcome to our wedding celebration! We are excited to share this special occasion with you.
-
+.. image:: _static/images/PutiBirol_highres2.gif
+   :alt: Puti & Birol GIF
+   :align: center
 .. image:: _static/images/putiBirol.png
    :alt: Puti & Birol
    :align: center
    :width: 500px
+
+Wedding 2026
+=============
+
+Welcome to our wedding celebration! We are excited to share this special occasion with you.
 
 Important Dates
 ---------------
