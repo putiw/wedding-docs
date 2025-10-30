@@ -1,6 +1,6 @@
 .. raw:: html
 
-   <div style="width:100%;max-width:1080px;margin:0 auto;overflow:hidden;height:45vh;min-height:300px;max-height:640px;">
+   <div style="width:100%;max-width:1080px;margin:0 auto;overflow:hidden;height:35vh;min-height:260px;max-height:520px;">
      <video src="_static/videos/putiBirol.mp4" autoplay loop muted playsinline style="width:100%;height:auto;display:block;margin:0;border:0;outline:0;background:#fff;position:relative;top:50%;transform:translateY(-50%);">
      </video>
    </div>
