@@ -22,18 +22,24 @@ extensions = [
 templates_path = []
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-# Root document
-root_doc = 'index'
-
 # -- Language configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-internationalization
 
-language = 'en'
+# Respect RTD language if present so translated projects don't render as English
+import os
+language = os.environ.get('READTHEDOCS_LANGUAGE', 'en')
 locale_dirs = ['../locale/']
 gettext_compact = False
 
 # Supported languages: English, Turkish, Chinese
 # To add translations later, create locale/tr/LC_MESSAGES/ and locale/zh_CN/LC_MESSAGES/ directories
+
+# Root document depends on language so each translation can have its own landing page
+root_doc = 'index'
+if language == 'zh_CN':
+    root_doc = 'index_zh'
+elif language == 'tr':
+    root_doc = 'index_tr'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

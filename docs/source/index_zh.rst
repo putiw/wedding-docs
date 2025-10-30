@@ -26,7 +26,7 @@
 .. raw:: html
 
    <div style="text-align:center;margin:2em 0;">
-     <a href="https://forms.gle/zxnRR1Q5T7dE1W3i8"
+     <a href="rsvp.html"
         style="display:inline-block;padding:1em 2em;font-size:1.2em;background:#27ae60;color:#fff;border-radius:8px;text-decoration:none;font-weight:bold;box-shadow:0px 2px 6px rgba(0,0,0,0.08);transition:background 0.2s;">
         报名表（RSVP）
      </a>
@@ -37,3 +37,10 @@
    <div style="text-align:center;margin:2em 0;">
      <a href="faq_zh.html" style="display:inline-block;padding:1em 2em;font-size:1.2em;background:#16a085;color:#fff;border-radius:8px;text-decoration:none;font-weight:bold;box-shadow:0px 2px 6px rgba(0,0,0,0.08);transition:background 0.2s;">常见问题</a>
    </div>
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   报名表 <rsvp>
+   常见问题（FAQ） <faq_zh>

@@ -37,3 +37,10 @@ Lütfen katılıp katılamayacağınızı aşağıdaki formu doldurarak bize bil
    <div style="text-align:center;margin:2em 0;">
      <a href="faq_tr.html" style="display:inline-block;padding:1em 2em;font-size:1.2em;background:#8e44ad;color:#fff;border-radius:8px;text-decoration:none;font-weight:bold;box-shadow:0px 2px 6px rgba(0,0,0,0.08);transition:background 0.2s;">SSS</a>
    </div>
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   RSVP Formu <rsvp>
+   Sıkça Sorulan Sorular (SSS) <faq_tr>
