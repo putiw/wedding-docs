@@ -1,10 +1,8 @@
-.. image:: _static/images/PutiBirol_90.gif
-   :alt: Puti & Birol GIF
-   :align: center
-.. image:: _static/images/putiBirol.png
-   :alt: Puti & Birol
-   :align: center
-   :width: 500px
+.. raw:: html
+
+   <video src="_static/videos/putiBirol.mp4" autoplay loop muted playsinline controls style="width:100%;max-width:1080px;display:block;margin:0 auto;">
+   </video>
+   <img src="_static/images/putiBirol.png" alt="Puti & Birol" style="display:block;margin:0 auto;max-width:500px;margin-top:0;" />
 
 Wedding 2026
 =============
