@@ -1,13 +1,14 @@
 .. raw:: html
 
-   <video src="_static/videos/putiBirol.mp4" autoplay loop muted playsinline controls style="width:100%;max-width:1080px;display:block;margin:0 auto;">
+   <video src="_static/videos/putiBirol.mp4" autoplay loop muted playsinline style="width:100%;max-width:1080px;display:block;margin:0 auto;border:0;outline:0;background:transparent;object-fit:cover;">
    </video>
    <img src="_static/images/putiBirol.png" alt="Puti & Birol" style="display:block;margin:0 auto;max-width:500px;margin-top:0;" />
 
 Wedding 2026
 =============
 
-Welcome to our wedding celebration! We are excited to share this special occasion with you.
+Puti and Birol are getting married! 
+We would love to have you join us in celebrating our special day.
 
 Important Dates
 ---------------
