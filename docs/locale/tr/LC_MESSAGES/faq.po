@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Wedding 2026
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Wedding 2026 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-30 14:06+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: tr\n"
+"Language-Team: tr <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/faq.rst:2
+msgid "Frequently Asked Questions (FAQ)"
+msgstr ""
+
+#: ../../source/faq.rst:16
+msgid "Where is the wedding in Türkiye?"
+msgstr ""
+
+#: ../../source/faq.rst
+msgid ""
+"The ceremony and reception will be at the Adonis Hotel in Antalya, "
+"Türkiye."
+msgstr ""
+
+#: ../../source/faq.rst
+msgid "Hotel website: `Adonis Hotel <https://www.adonishotel.com/>`_."
+msgstr ""
+
+#: ../../source/faq.rst
+msgid ""
+"Address: Eski Lara Yolu, 07100 Antalya, Türkiye.  Phone: +90 242 316 44 "
+"44."
+msgstr ""
+
+#: ../../source/faq.rst:36
+msgid "What kind of location is the venue?"
+msgstr ""
+
+#: ../../source/faq.rst
+msgid "This is a hotel on the cliff overlooking the Mediterranean Sea."
+msgstr ""
+
+#: ../../source/faq.rst
+msgid ""
+"In May, it will be around 20-25 degrees Celsius with a slight chance of "
+"rain."
+msgstr ""
+
+#: ../../source/faq.rst
+msgid "We will have the ceremony outdoors and then eat and dance indoors."
+msgstr ""
+
+#: ../../source/faq.rst:41
+msgid "Do I need Visa to attend the weddings?"
+msgstr ""
+
+#: ../../source/faq.rst
+msgid ""
+"Most people can apply e-visa for `Türkiye "
+"<https://www.evisa.gov.tr/en/tour/>`_, which will take only a few "
+"minutes."
+msgstr ""
+
+#: ../../source/faq.rst
+msgid ""
+"The process for `China <https://consular.mfa.gov.cn/VISA/>`_ is a bit "
+"more complicated, it might be worth to apply it with the help of a travel"
+" agency."
+msgstr ""
+
+#: ../../source/faq.rst:45
+msgid "When and where will be the wedding in China?"
+msgstr ""
+
+#: ../../source/faq.rst
+msgid ""
+"The wedding will be on one of the saturdays in September 2026 in my dad's"
+" place in the moutains of Beijing."
+msgstr ""
+
+#: ../../source/faq.rst
+msgid ""
+"This is a lot more remote than the wedding in Türkiye and we don't have a"
+" lot of civilizations nearby. Please only RSVP if you are experinced "
+"travelers."
+msgstr ""
+
+#: ../../source/faq.rst:66
+msgid ""
+"More details will be finalized (once I find out what needs to be "
+"finalized)."
+msgstr ""
+

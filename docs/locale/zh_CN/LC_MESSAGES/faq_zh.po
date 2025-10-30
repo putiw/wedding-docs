@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Wedding 2026
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Wedding 2026 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-30 14:06+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/faq_zh.rst:2
+msgid "常见问题（FAQ）"
+msgstr ""
+
+#: ../../source/faq_zh.rst:14
+msgid "婚礼在土耳其哪里举行？"
+msgstr ""
+
+#: ../../source/faq_zh.rst
+msgid "婚礼将在土耳其安塔利亚的阿多尼斯酒店(Adonis Hotel举)行。"
+msgstr ""
+
+#: ../../source/faq_zh.rst
+msgid "酒店官网：`Adonis Hotel <https://www.adonishotel.com/>`_。"
+msgstr ""
+
+#: ../../source/faq_zh.rst
+msgid "地址：Eski Lara Yolu, 07100 Antalya, Türkiye。电话：+90 242 316 44 44。"
+msgstr ""
+
+#: ../../source/faq_zh.rst:34
+msgid "婚礼场地是什么样的？"
+msgstr ""
+
+#: ../../source/faq_zh.rst
+msgid "这是一家坐落在悬崖上的海景酒店，可俯瞰地中海。"
+msgstr ""
+
+#: ../../source/faq_zh.rst
+msgid "5 月份气温大约 20–25 摄氏度，可能会有小概率降雨。"
+msgstr ""
+
+#: ../../source/faq_zh.rst
+msgid "仪式在室外举行，之后在室内用餐与跳舞。"
+msgstr ""
+
+#: ../../source/faq_zh.rst:39
+msgid "去参加婚礼需要签证吗？"
+msgstr ""
+
+#: ../../source/faq_zh.rst
+msgid "大多数人可以在线申请土耳其 `电子签证 <https://www.evisa.gov.tr/en/tour/>`_，几分钟即可完成。"
+msgstr ""
+
+#: ../../source/faq_zh.rst
+msgid "`中国签证 <https://consular.mfa.gov.cn/VISA/>`_ 稍复杂，建议通过旅行社办理。"
+msgstr ""
+
+#: ../../source/faq_zh.rst:43
+msgid "中国那场婚礼的时间和地点？"
+msgstr ""
+
+#: ../../source/faq_zh.rst
+msgid "计划在 2026 年 9 月的某个周六，于北京怀柔山区父亲的院子举办。"
+msgstr ""
+
+#: ../../source/faq_zh.rst
+msgid "相比土耳其，这里更为偏远，附近几乎没有商业设施。请仅在具备旅行经验的情况下 RSVP。"
+msgstr ""
+
+#: ../../source/faq_zh.rst:62
+msgid "后续会补充更多细节。"
+msgstr ""
+
