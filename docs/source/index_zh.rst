@@ -42,5 +42,6 @@
    :hidden:
    :maxdepth: 1
 
+   首页 <index_zh>
    报名表 <rsvp>
    常见问题（FAQ） <faq_zh>

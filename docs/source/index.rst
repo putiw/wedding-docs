@@ -16,6 +16,25 @@
      <a href="index_tr.html" style="font-weight:600;text-decoration:none;">Türkçe</a>
    </div>
 
+.. raw:: html
+
+   <script>
+     (function() {
+       try {
+         var p = window.location.pathname;
+         // If we are in a translation project root, redirect to localized home
+         if (/\/tr\/[^/]+\/$/.test(p) || /\/tr\/[^/]+\/index\.html$/.test(p)) {
+           window.location.replace('index_tr.html');
+           return;
+         }
+         if (/\/zh-cn\/[^/]+\/$/.test(p) || /\/zh-cn\/[^/]+\/index\.html$/.test(p)) {
+           window.location.replace('index_zh.html');
+           return;
+         }
+       } catch (e) { /* no-op */ }
+     })();
+   </script>
+
 
 Puti and Birol are getting married! 
 ===================================
@@ -37,6 +56,7 @@ Please let us know if you will be able to attend by filling out this form:
    :hidden:
    :maxdepth: 1
 
+   Home <index>
    RSVP Form <rsvp>
    Frequently Asked Questions (FAQ) <faq>
 

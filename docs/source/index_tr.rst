@@ -42,5 +42,6 @@ Lütfen katılıp katılamayacağınızı aşağıdaki formu doldurarak bize bil
    :hidden:
    :maxdepth: 1
 
+   Ana Sayfa <index_tr>
    RSVP Formu <rsvp>
    Sıkça Sorulan Sorular (SSS) <faq_tr>
