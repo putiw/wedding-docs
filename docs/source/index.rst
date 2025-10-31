@@ -59,6 +59,7 @@ Please let us know if you will be able to attend by filling out this form:
    Home <index>
    RSVP Form <rsvp>
    Frequently Asked Questions (FAQ) <faq>
+   Video Test <video_test>
 
 
 .. raw:: html

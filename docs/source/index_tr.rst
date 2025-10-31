@@ -45,3 +45,4 @@ Lütfen katılıp katılamayacağınızı aşağıdaki formu doldurarak bize bil
    Ana Sayfa <index_tr>
    RSVP Formu <rsvp>
    Sıkça Sorulan Sorular (SSS) <faq_tr>
+    Video Test <video_test>
