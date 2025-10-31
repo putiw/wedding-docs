@@ -27,7 +27,7 @@ Lütfen katılıp katılamayacağınızı aşağıdaki formu doldurarak bize bil
 .. raw:: html
 
    <div style="text-align:center;margin:2em 0;">
-     <a href="https://forms.gle/zxnRR1Q5T7dE1W3i8"
+     <a href="rsvp.html"
         style="display:inline-block;padding:1em 2em;font-size:1.2em;background:#27ae60;color:#fff;border-radius:8px;text-decoration:none;font-weight:bold;box-shadow:0px 2px 6px rgba(0,0,0,0.08);transition:background 0.2s;">
         RSVP Formu
      </a>
