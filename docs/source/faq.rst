@@ -45,6 +45,7 @@ Do I need Visa to attend the weddings?
 When and where will be the wedding in China?
   | The wedding will be on one of the saturdays in September 2026 in my dad's place in the moutains of Beijing. 
   | This is a lot more remote than the wedding in Türkiye and we don't have a lot of civilizations nearby. Please only RSVP if you are experinced travelers. 
+  | Also this one is not 100% confirmed as we don't even have a date yet. If you would like to only come to one wedding, we suggest the one in Türkiye :) 
 
 .. only:: html
 
